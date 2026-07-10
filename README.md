@@ -59,17 +59,24 @@ O arquivo xlsx fornecido contém duas abas com dados a serem trabalhados:
 ## Estrutura do Repositório
 
 ├── Dataset/
-│   └── bd_isaac.xlsx   # Dataset principal
-├── Docs/               # Documentação e contexto do case
+│   └── bd_isaac.xlsx                    # Dataset principal
+├── Docs/                                # Documentação e contexto do case
 ├── Notebooks/
-│   └── 01_analise_exploratoria.ipynb # Análise exploratória e desenvolvimento
-├── environment.yml     # Arquivo de configuração do ambiente Conda
-├── .gitignore          # Arquivos ignorados
-└── README.md           # Este arquivo
+│   └── 01_analise_exploratoria.ipynb    # Análise exploratória (código fonte limpo)
+├── Reports/
+│   ├── 01_analise_exploratoria_files/   # Gráficos e imagens geradas na conversão
+│   └── 01_analise_exploratoria.md       # Relatório final renderizado com resultados
+├── environment.yml                      # Arquivo de configuração do ambiente Conda
+├── .gitignore                           # Arquivos ignorados
+└── README.md                            # Este arquivo
 
 ##### Versionamento de Notebook
 
-⚠️ Este projeto ainda está em desenvolvimento ativo. Os notebooks estão versionados sem outputs (uso de nbstripout). A versão renderizada com gráficos e tabelas será publicada ao final de todas as iterações e refinamentos. Para executar localmente, ver "Como Reproduzir".
+⚠️ Este projeto ainda está em desenvolvimento ativo. Os notebooks estão versionados sem outputs (uso de nbstripout). 
+
+- Para visualizar a análise completa, com todos os gráficos, tabelas e testes de hipótese renderizados (sem precisar configurar o ambiente local), acesse o documento final na pasta **[Reports/01_analise_exploratoria.md](./Reports/01_analise_exploratoria.md)**.
+
+- Para executar localmente, ver "Como Reproduzir".
 
 ## Como Reproduzir
 
